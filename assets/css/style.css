@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "NeutralFace";
+    src: url("/assets/fonts/NeutralFace.otf");
+}
+
+@font-face {
+    font-family: "Manrope-Regular";
+    src: url("/assets/fonts/Manrope-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.header {
+    flex-grow: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #0d0d0d;
+    flex-grow: 0;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.container {
+    width: 1170px;
+}
+
+.mt1 {
+    margin-top: 10px;
+}
+
+.mt2 {
+    margin-top: 20px;
+}
+
+.mt3 {
+    margin-top: 30px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.header-section {
+    border-bottom: black 2px solid;
+}
+
+.header-title {
+    padding: 15px;
+    font-family: "NeutralFace";
+}
+
+.header-title-brand {
+    font-size: 20px;
+}
+
+.icon {
+    height: 25px;
+}
+
+.icon > img {
+    height: 100%;
+    margin: 5px;
+}
+
+.icon > * {
+    margin: 0 3px;
+}
+
+.inactive-language {
+    opacity: 50%;
+}
+
+.footer-contact {
+    padding: 160px 0;
+}
+
+.footer-contact .title {
+    font-size: 70px;
+    font-family: "NeutralFace";
+    margin-bottom: 100px;
+}
+
+.contact-form-info-text {
+    font-family: "Manrope-Regular";
+    font-size: 22px;
+}
+
+.contact-form-info-image > img {
+    width: 100%;
+}
+
+.contact-form {
+    font-family: "Manrope-Regular";
+}
+
+.contact-form input[type=text] {
+    transition: .1s;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    border: #555555 1px solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contact-form input[type=text]:focus {
+    transition: .1s;
+    transform: scale(1.05);
+    padding: 12px;
+    outline: none;
+}
+
+.contact-form label {
+    font-size: 14px;
+}
+
+.radios input[type=radio] {
+    accent-color: white;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
